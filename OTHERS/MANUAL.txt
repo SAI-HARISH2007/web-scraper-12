@@ -1,0 +1,37 @@
+DIGITAL MANUAL FOR WEB SCRAPER APPLICATION
+This application allows you to scrape summaries from Wikipedia based on user-defined topics.
+It features a history tracking system, performance graphs, and options to save or copy summaries.
+FIND SUMMARY:
+Click the 'Find' button or press 'Enter' on your keyboard to scrape the summary of the entered topic from Wikipedia.
+COPY SUMMARY:
+Click the 'Copy' button to copy the displayed summary to your clipboard.
+SAVE SUMMARY:
+Click the 'SAVE' button to save the summary as a text file.
+TEXT-TO-SPEECH:
+Click The vox button to read the summary aloud
+VIEW HISTORY:
+Click the '☰' button to view history frame.
+CLEAR HISTORY:
+In the history frame, click the ' CLEAR HISTORY button to remove all saved history.
+PERFORMANCE STATISTICS:
+Click the 'SEARCH STATS' button to display a graph of your search statistics.
+
+_______________________________________________________________________________________________________
+
+KEYBOARD SHORTCUTS:
+Enter:   Initiate the summary search for the entered topic.
+Escape:  Close the application
+F11:     Toggle Full screen mode
+Ctrl_V:  Activate text-to-speech
+Ctrl_s:  Save summary in text file
+_______________________________________________________________________________________________________
+
+TIPS:
+- Ensure you enter a valid Wikipedia topic to get a meaningful summary.
+- Use the 'HISTORY' feature to revisit previous searches.
+- Customize your experience through the 'SETTINGS' button (currently under construction).
+
+
+
+
+

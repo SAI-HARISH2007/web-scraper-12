@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB SCRAPER</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            overflow: auto;}
+        h1{font-size: 24px;}
+        img {max-width: 100%;
+            height: auto;}
+        .content {
+            height: 20000px; 
+            width: 100%;
+            background: linear-gradient(to bottom, #f8f8f8, #d9fcff);
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center;}
+        canvas {
+            border: 2px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1 style="text-decoration: underline;">AUM SRI SAI RAM</h1>
+        <h1 style="text-decoration: underline;">WELCOME TO WEB SCRAPER</h1>
+        <img src="intro page.png" width="758" height="466" alt="Intro Image">
+        <h1>Hi, and welcome to my web SCRAPER</h1>
+    </div>
+    <canvas id="myCanvas" width="600" height="400"></canvas>
+    <script>
+        const canvas = document.getElementById('myCanvas');
+        const ctx = canvas.getContext('2d');
+
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.font = '48px Arial';
+        ctx.fillStyle = '#333';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+
+        // Blit text onto the canvas
+        ctx.fillText('Hello!', canvas.width / 2, canvas.height / 2);
+    </script>
+</body>
+</html>
+
+
+
+<!-- 
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Canvas Text Blit Example</title>
+ </head>
+ <body>
+     <canvas id="myCanvas" width="600" height="400" style="border:2px solid #000;"></canvas>
+     
+     <script>
+         const canvas = document.getElementById('myCanvas');
+         const ctx = canvas.getContext('2d');
+ 
+         // Clear the canvas
+         ctx.clearRect(0, 0, canvas.width, canvas.height);
+ 
+         // Set font properties
+         ctx.font = '48px Arial';
+         ctx.fillStyle = '#333';
+         ctx.textAlign = 'center';
+         ctx.textBaseline = 'middle';
+ 
+         // Blit text onto the canvas
+         ctx.fillText('Hello, World!', canvas.width / 2, canvas.height / 2);
+     </script>
+ </body>
+ </html>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -->
